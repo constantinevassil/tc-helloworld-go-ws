@@ -2,7 +2,7 @@
 
 git clone https://github.com/topconnector/helloworld-go-ws.git
 
-cd 
+cd helloworld-go-ws
 
 Test on Mac:
 
