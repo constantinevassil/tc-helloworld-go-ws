@@ -16,3 +16,8 @@ Open in browser:
 
 http://localhost:8080
 
+Test with Docker:
+
+```bash
+docker run -p 8080:8080 topconnector/helloworld-gws:v1
+```
