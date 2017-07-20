@@ -9,9 +9,11 @@ is kept at the minimum.
 
 ## tc-helloworld-go-ws
 
-git clone https://github.com/topconnector/tc-helloworld-go-ws.git
+git clone https://github.com/topconnector/tc-helloworld-go-ws.git 
 
 cd tc-helloworld-go-ws
+
+chmod=+x bld.bash
 
 Test on Mac:
 
