@@ -1,4 +1,13 @@
-# helloworld-go-ws
+
+# Building Minimal Docker Containers for Go Applications
+
+There official containers for Golang can be quite large. 
+
+When Go apps are build statically with all libraries built in their size 
+is kept at the minimum.
+
+
+## helloworld-go-ws
 
 git clone https://github.com/topconnector/helloworld-go-ws.git
 
