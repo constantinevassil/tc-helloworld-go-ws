@@ -7,10 +7,9 @@
 echo "update helloworld-go-ws"
 go fmt main.go
 CGO_ENABLED=0 GOOS=linux go build -a -tags netgo -ldflags '-w' .
-#ldd  helloworld-go-ws
 
-docker build -t helloworld-go-ws:v1 .
-docker tag helloworld-go-ws:v1 topconnector/helloworld-go-ws:v1
-docker push topconnector/helloworld-go-ws
+docker build -t tc-helloworld-go-ws:v1 .
+docker tag tc-helloworld-go-ws:v1 topconnector/tc-helloworld-go-ws:v1
+docker push topconnector/tc-helloworld-go-ws
 docker images
 
