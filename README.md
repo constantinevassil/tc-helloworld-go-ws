@@ -13,6 +13,7 @@ is kept at the minimum.
 git clone https://github.com/topconnector/tc-helloworld-go-ws.git 
 cd tc-helloworld-go-ws
 chmod +x ./bld.bash
+./bld.bash
 ./tc-helloworld-go-ws
 ```
 
