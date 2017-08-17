@@ -30,7 +30,7 @@ brew install dep
 brew upgrade dep
 ```
 
-Run "dep init": creates vendor directory with dependencies
+Running "dep init" in project folder creates vendor directory with dependencies
 
 ## tc-helloworld-go-ws
 
